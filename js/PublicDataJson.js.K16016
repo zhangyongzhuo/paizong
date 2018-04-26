@@ -1,0 +1,156 @@
+﻿.pragma library
+
+//车辆信息Json
+var carJson ={
+    "licensePlateType": "",
+    "licensePlateNo": "",
+    "bodyColor": "",
+    "model": "",
+    "brand": "",
+    "vinCode": "",
+    "owner": "",
+    "ownerTel": "",
+    "performState": false,
+    "abnormalState": "",
+    "photoPath": []
+}
+
+//亲属关系信息Json
+var kinshipInfo ={
+    "location":"",
+    "relationship":"",
+    "name":"",
+    "idcard":"",
+    "phoneNumber":[],
+    "unitName":"",
+    "unitAddr":{
+        "provincesCode":"",
+        "provincesText":"",
+        "cityCode":"",
+        "cityText":"",
+        "areaCode":"",
+        "areaText":"",
+        "streetCode":"",
+        "streetText":"",
+        "numberCode":"",
+        "numberText":"",
+        "communityCode":"",
+        "communityText":"",
+        "buildingCode":"",
+        "buildingText":"",
+        "unitCode":"",
+        "unitText":"",
+        "roomCode":"",
+        "roomText":""
+    },
+    "currentAddr":{
+        "provincesCode":"",
+        "provincesText":"",
+        "cityCode":"",
+        "cityText":"",
+        "areaCode":"",
+        "areaText":"",
+        "streetCode":"",
+        "streetText":"",
+        "numberCode":"",
+        "numberText":"",
+        "communityCode":"",
+        "communityText":"",
+        "buildingCode":"",
+        "buildingText":"",
+        "unitCode":"",
+        "unitText":"",
+        "roomCode":"",
+        "roomText":""
+    }
+}
+
+var phoneInfo = {
+    "deviceId":"",
+    "phoneNumber":[],
+    "compareResults":{
+        "isSmsException":false,
+        "isCallException":false,
+        "isContactException":false,
+        "isAppException":false,
+        "isPhoneNumberException":false,
+        "isHaveTerrVideo":false
+    },
+    "baseInfo":{
+        "btaddr":"",
+        "iccid":"",
+        "imei":"",
+        "imsi":"",
+        "macaddr":"",
+        "msisdn":"",
+        "optime":"",
+        "os":"",
+        "product ":""
+    },
+    "smsInfo":[],
+    "callInfo":[],
+    "contactInfo":[],
+    "appInfo":[]
+}
+
+var IdcardJson = {
+    "name":"",
+    "sex":"",
+    "nation":"",
+    "idcard":"",
+    "address":"",
+    "birth":""
+}
+
+var BaseInfoJson = {
+    "passportNo":"",
+    "politicalStatus":"",
+    "qqId":"",
+    "weChatId":"",
+    "phoneNumber":[],
+    "toLocalTime":"",
+    "marriageStatus":"",
+    "unitName":"",
+    "income":"",
+    "unitAddr":{
+        "provincesCode":"",
+        "provincesText":"",
+        "cityCode":"",
+        "cityText":"",
+        "areaCode":"",
+        "areaText":"",
+        "streetCode":"",
+        "streetText":"",
+        "numberCode":"",
+        "numberText":"",
+        "communityCode":"",
+        "communityText":"",
+        "buildingCode":"",
+        "buildingText":"",
+        "unitCode":"",
+        "unitText":"",
+        "roomCode":"",
+        "roomText":""
+    },
+    "currentAddr":{
+        "provincesCode":"",
+        "provincesText":"",
+        "cityCode":"",
+        "cityText":"",
+        "areaCode":"",
+        "areaText":"",
+        "streetCode":"",
+        "streetText":"",
+        "numberCode":"",
+        "numberText":"",
+        "communityCode":"",
+        "communityText":"",
+        "buildingCode":"",
+        "buildingText":"",
+        "unitCode":"",
+        "unitText":"",
+        "roomCode":"",
+        "roomText":""
+    }
+}
+
